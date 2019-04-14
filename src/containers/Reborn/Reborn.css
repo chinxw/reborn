@@ -1,0 +1,252 @@
+.RootImage {
+    max-width: 100%;
+    max-height: 600px;
+}
+
+.Showcase {
+    display: flex;
+    align-items: center;
+}
+
+.ShowcaseMini {
+    display: flex;
+    align-items: center;
+}
+
+.ShowcaseMini>div {
+    margin: 5px;
+}
+
+.ShowcaseNavigation {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vw;
+}
+
+.ShopNowSection {
+    /**** USING FLEX */
+    display: flex;
+    /* flex-direction: row; */
+    /**** USING INLINE-BLOCK */
+    /* display: inline-block; */
+    /**** USING TABLE-CELL */
+    /* display: table; */
+}
+
+.ShopNowImageDiv {
+    /**** USING FLEX */
+    flex: 1;
+    /**** USING INLINE-BLOCK */
+    /* width: 50%;
+    display: inline-block;
+    text-align: center;
+    height: 100%; */
+    /**** USING TABLE-CELL */
+    /* display: table-cell;
+    text-align: center;
+    height: 100%; */
+}
+
+.ShopItemsDiv {
+    /**** USING FLEX */
+    flex: 1;
+    display: flex;
+    /* overflow: hidden; */
+    /**** USING INLINE-BLOCK */
+    /* width: 50%; */
+    /* display: inline-block; */
+    /* text-align: center;
+    display: table-cell;
+    height: 100%; */
+}
+
+/* .ShopNowSection > * {
+    flex: 0 0 auto;			
+    overflow: scroll;
+} */
+
+.ShopItemsListContainer {
+    flex: 1;
+    overflow: auto;
+}
+
+.ShopItemsList {
+    height: 100%;
+    margin: 0 60px;
+    /* padding: 50px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ShopNowImage {
+    width: 100%;
+    height: 100%;
+    /* max-width: 100%;
+    max-height: 1000px; */
+    /* display: block; */
+    /* vertical-align: middle; */
+}
+
+/* .ShowcaseImages {
+    background-color: #fff;
+    min-width: 100%;
+    min-height: 50px;
+    display: flex;
+    overflow-x: auto;
+    border: 1px solid black;
+} */
+
+.DotsContainer {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+/*** Dots ***/ 
+
+.Dots {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    cursor: default;
+}
+
+.Dots .active a {
+    /* -webkit-transform: scale3d(1.3, 1.3, 1.3); */
+    transform: scale3d(1.3, 1.3, 1.3);
+}
+
+.Dots .active a:after {
+    height: 100%;
+}
+
+.Dots li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0 10px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.Dots li a {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border-radius: 50%;
+    text-indent: -999em;
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px lightgray;
+    /* -webkit-transition: all 0.3s ease; */
+    transition: all 0.3s ease;
+    /* -webkit-transform: scale3d(1, 1, 1); */
+    transform: scale3d(1, 1, 1);
+}
+
+.Dots li a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightgray;
+    box-shadow: 0 0 1px lightgray;
+    -webkit-transition: height 0.3s ease;
+    transition: height 0.3s ease;
+}
+/*** End Dots ***/ 
+
+.ShopNow {
+    display: flex;
+}
+
+.ShopNow > div {
+    flex: 1 1 50%;
+    box-sizing: border-box;
+}
+
+.ShopNowRight {
+    padding: 60px;
+}
+
+.ShopNowRightContent {
+    height: 50vw;
+    display: flex;
+    overflow: auto;
+}
+
+.ShowNowRightAnnotations {
+    position: relative;
+}
+.ShowNowRightAnnotations div {
+    position: absolute;
+    margin: 100px 0px 0px -140px;
+    transform: rotate(270deg);
+    font-family: "helvetica", serif;
+    font-size:14px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.ShopNowRightContent::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+.Helper {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Scrollbar styles */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f5f5f5;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #ccc;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
+
+@media (max-width: 499px) {
+    .ShowcaseMini {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ShowcaseMini>div {
+        margin: 0 0 -5px 0;
+    }
+    .ShopNowLeft {
+        display:none;
+    }
+    .ShopNowRight {
+        height: 430px;
+    }
+    .ShopNowRightContent {
+        height: 350px;
+    }
+}

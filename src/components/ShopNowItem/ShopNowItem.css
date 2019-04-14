@@ -1,0 +1,25 @@
+.ShopNowItem {
+    /* height: 200px; */
+    display:flex;
+    flex-direction: row;
+}
+
+.ShopNowItemImage {
+    max-width: 100px;
+    max-height: auto;
+    /* min-width: 400px; */
+    /* margin: 5px; */
+}
+
+.ShopNowItem div:nth-child(1) {
+    /* width: 200px; */
+    display:flex;
+    align-items: center;
+}
+
+.ShopNowItem div:nth-child(2) {
+    margin-left:20px;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+

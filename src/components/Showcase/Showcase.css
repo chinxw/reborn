@@ -1,0 +1,125 @@
+.Showcase {
+    /* width: 95%; */
+    /* border: 1px solid #eee; */
+    /* box-shadow: 0 2px 3px #ccc; */
+    /* padding: 10px; */
+    /* margin: 10px auto; */
+    /* box-sizing: border-box; */
+    /* text-align: center; */
+    /* display: inline; */
+    /* width: 50%; */
+    /* display: inline-block; */
+    /* min-width: 100%; */
+    /* min-height: 200px; */
+    /* display: flex; */
+    /* USING FLEX */
+    flex: 1;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* align-items: center; */
+    /* USING INLINE-BLOCK */
+    /* width: 50%; */
+    /* display: inline-block;
+    text-align: center; */
+}
+
+/* Default Layout */
+/* Image Landscape */
+.Showcase div:nth-child(1) {
+    display: block;
+}
+/* Image Portrait */
+.Showcase  div:nth-child(2) {
+    display: none;
+}
+
+/* Default Landscape */
+/* Image Landscape */
+.DefaultLandscape div:nth-child(1) {
+    display: block;
+}
+/* Image Portrait */
+.DefaultLandscape  div:nth-child(2) {
+    display: none;
+}
+
+/* Default Landscape */
+/* Image Landscape */
+.DefaultPortrait div:nth-child(1) {
+    display: none;
+}
+/* Image Portrait */
+.DefaultPortrait  div:nth-child(2) {
+    display: block;
+}
+
+.ShowcaseImage {
+    max-width: 100%;
+    max-height: 100%;
+    /* max-width: 100%;
+    max-height: 1000px; */
+    /* min-width: 400px; */
+    /* margin: 5px; */
+}
+
+.ShowcaseImagePortrait {
+    display: none;
+}
+
+
+
+/* .ShowcaseImage {
+    background-color: #e74c3c;
+    min-width: 50%;
+    border: 1px solid black;
+    max-width: 100%;
+    max-height: 100%;
+} */
+
+/*
+.Promotion h2 {
+    text-align: center;
+}
+
+.Promotion p {
+    text-align: center;
+} */
+
+@media (max-width: 499px) {
+    /* .ShowcaseImage {
+        width: 100vw;
+        height: auto;
+    } */
+
+    /* Default Layout */
+    /* Image Landscape */
+    .Showcase div:nth-child(1) {
+        display: none;
+    }
+    /* Image Portrait */
+    .Showcase  div:nth-child(2) {
+        display: block;
+    }
+
+    /* Default Landscape */
+    /* Image Landscape */
+    .DefaultLandscape div:nth-child(1) {
+        display: none;
+    }
+    /* Image Portrait */
+    .DefaultLandscape  div:nth-child(2) {
+        display: block;
+    }
+
+    /* Default Landscape */
+    /* Image Landscape */
+    .DefaultPortrait div:nth-child(1) {
+        display: block;
+    }
+    /* Image Portrait */
+    .DefaultPortrait  div:nth-child(2) {
+        display: none;
+    }
+}

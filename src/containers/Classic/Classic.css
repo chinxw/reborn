@@ -1,0 +1,9 @@
+.Showcase {
+    /**** USING FLEX */
+    /* display: flex;
+    flex-direction: row;
+    align-content: center; */
+    /**** USING INLINE-BLOCK */
+    display: inline-block;
+    text-align: center;
+}

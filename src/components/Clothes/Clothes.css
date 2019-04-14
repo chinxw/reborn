@@ -1,0 +1,26 @@
+.ClothesTwoCol {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 45%;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.ClothesOneCol {
+    width: 98%;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+.ClothesImage {
+    max-width: 100%;
+    max-height: 100%;
+}

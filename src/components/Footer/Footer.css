@@ -1,0 +1,94 @@
+.Footer {
+    height: 400px;
+    width: 100%;
+}
+
+.TopDiv {
+    height:50%;
+    text-align: center;
+    background-image: linear-gradient(to left, #E6E6E6, white);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.TopDiv div p:nth-child(1) {
+    font-family: bodoni-urw, serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+
+.TopDiv div p:nth-child(2) {
+    font-family: "helvetica", serif;
+    font-size:14px;
+
+    /* font-weight: 500; */
+    /* font-size: 14px; */
+}
+
+.BottomDiv {
+    height:50%;
+    text-align: center;
+    background-image: linear-gradient(to left, #DBAD95, white);
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center;  */
+    flex-direction: column;
+}
+
+.BottomDiv div:nth-child(1) {
+    width: 100%;
+    align-self: flex-start;
+    margin-top:-28px;
+}
+
+.BottomDiv div:nth-child(1) input {
+    font-size: 14px;
+    padding: 20px;
+    width: 400px;
+}
+
+.BottomDiv div:nth-child(1) input::placeholder {
+    font-family: "helvetica", serif;
+    letter-spacing: 2px;
+}
+
+.BottomDiv div:nth-child(2) {
+    flex: 1;
+}
+
+.BottomDiv div:nth-child(3) {
+    width: 100%;
+    align-self: flex-end;
+    margin-bottom:20px;
+
+    font-family: "helvetica", serif;
+    font-size:10px;
+
+    /* font-family: 'helvetica', sans-serif;
+    font-weight: 600;
+    font-size: 10px; */
+    letter-spacing: 1px;
+    
+}
+
+/* .BottomDiv div:nth-child(3) p:nth-child(1) {
+    color: white;
+} */
+
+.FooterLinks {
+    
+}
+
+.FooterLinks a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+@media (max-width: 549px) {
+    .BottomDiv div:nth-child(1) input {
+        width: 300px;
+    }
+}

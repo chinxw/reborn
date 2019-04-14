@@ -1,0 +1,60 @@
+.Product {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.ProductImage {
+    flex: 1 1 30%;
+}
+
+.ProductDetails {
+    flex: 1 1 70%;
+}
+
+.ProductDetails {
+    padding: 20px;
+}
+
+.ProductImage img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.Title, .Price {
+    text-transform: uppercase;
+    font-family: bodoni-urw, serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+
+.Details {
+    font-family: "helvetica", serif;
+    font-size:14px;
+    color: #666666;
+    /* padding-left: 20px; */
+    line-height: 2em;
+}
+
+.Nav {
+    text-transform: uppercase;
+    font-family: "helvetica", serif;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+
+.Annotations {
+    position: relative;
+}
+.Annotations div {
+    position: absolute;
+    margin: 0px 0px 0px -140px;
+    transform: rotate(270deg);
+    font-family: "helvetica", serif;
+    font-size:8px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    width: 300px;
+    text-align: right;
+}
