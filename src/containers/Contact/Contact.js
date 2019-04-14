@@ -13,15 +13,15 @@ import CKEditor from "react-ckeditor-component";
 // import ShopNowItem from '../../components/ShopNowItem/ShopNowItem';
 // import Image1 from '../../assets/images/showcase1.png';
 // import Image2 from '../../assets/images/dakota-johnson-beauty-river.jpg';
-import Background from '../../assets/images/COSME_Web-07.png';
-import Image2 from '../../assets/images/COSME_Web-06.png';
+// import Background from '../../assets/images/COSME_Web-07.png';
+// import Image2 from '../../assets/images/COSME_Web-06.png';
 // import Item1Image from '../../assets/images/mac_sku_MKXM01_640x600_0.jpg';
 // import Item2Image from '../../assets/images/BTPC150_5.jpg';
 // import classes from './Root.css';
 import * as actions from '../../store/actions/index';
 import * as pathConstants from '../../shared/constants';
 import classes from './Contact.css';
-import Showcase from '../../components/Showcase/Showcase';
+// import Showcase from '../../components/Showcase/Showcase';
 import Input from '../../components/UI/Input/Input';
 import Button from '../../components/UI/Button/Button';
 
@@ -95,7 +95,7 @@ class Contact extends Component {
     render() {
 
         return (
-            <div className={classes.Contact} style={{ background: `url(${Background}) no-repeat`, backgroundSize: "cover", }}>
+            <div className={classes.Contact} style={{ background: `url(https://lh3.google.com/u/0/d/1tLbaIBYNMTvrcqtCXaXrddJQ7Y_e2ErP) no-repeat`, backgroundSize: "cover", }}>
                 <div>
                     <p className={classes.ContactUs}>{"Contact Us".toUpperCase()}</p>
                     <p className={classes.ContactUsCaption}>We'd love to hear from you</p>

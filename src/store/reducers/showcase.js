@@ -1,21 +1,21 @@
-import React from 'react';
+// import React from 'react';
 
 import * as actionTypes from '../actions/actionTypes';
 import { updateObject } from '../../shared/utility';
 
-import Image1 from '../../assets/images/showcase1.png';
-import Image2 from '../../assets/images/dakota-johnson-beauty-river.jpg';
-import Image3 from '../../assets/images/COSME_Web-05.png';
-import Image4 from '../../assets/images/img4.jpg';
-import Image4p from '../../assets/images/img4p.jpg';
-import Image6 from '../../assets/images/img6.jpg';
-import Image6p from '../../assets/images/img6p.jpg';
-import scmini1 from '../../assets/images/scmini1.jpg';
-import scmini1p from '../../assets/images/scmini1p.jpg';
-import scmini2 from '../../assets/images/scmini2.jpg';
-import scmini2p from '../../assets/images/scmini2p.jpg';
-import scmini3 from '../../assets/images/scmini3.jpg';
-import scmini3p from '../../assets/images/scmini3p.jpg';
+// import Image1 from '../../assets/images/showcase1.png';
+// import Image2 from '../../assets/images/dakota-johnson-beauty-river.jpg';
+// import Image3 from '../../assets/images/COSME_Web-05.png';
+// import Image4 from '../../assets/images/img4.jpg';
+// import Image4p from '../../assets/images/img4p.jpg';
+// import Image6 from '../../assets/images/img6.jpg';
+// import Image6p from '../../assets/images/img6p.jpg';
+// import scmini1 from '../../assets/images/scmini1.jpg';
+// import scmini1p from '../../assets/images/scmini1p.jpg';
+// import scmini2 from '../../assets/images/scmini2.jpg';
+// import scmini2p from '../../assets/images/scmini2p.jpg';
+// import scmini3 from '../../assets/images/scmini3.jpg';
+// import scmini3p from '../../assets/images/scmini3p.jpg';
 
 const initialState = {
     showcaseList: {
@@ -63,8 +63,8 @@ const initialState = {
             id: "sc1",
             imgs: [ 
                 [{
-                    src: Image4,
-                    portraitSrc: Image4p,
+                    src: "https://lh3.google.com/u/0/d/1mtDz7nP1wdNyejB9LIGNr3b8zB-9ldhn",
+                    portraitSrc: "https://lh3.google.com/u/0/d/1JX4v6OCQBh57ETzPonh2umtAuZlvYKaz",
                 }],
             ],
         },
@@ -72,8 +72,8 @@ const initialState = {
             id: "sc2",
             imgs: [ 
                 [{
-                    src: Image6,
-                    portraitSrc: Image6p,
+                    src: "https://lh3.google.com/u/0/d/1Yi_usIzWetHBR5xw8kA7f3nchOqx08gT",
+                    portraitSrc: "https://lh3.google.com/u/0/d/1HFrVGaUI80JsgdOuM4sdyayQamiYdlNn",
                 }],
             ],
         },
@@ -81,8 +81,8 @@ const initialState = {
             id: "sc3",
             imgs: [ 
                 [{
-                    src: Image1,
-                    portraitSrc: Image1,
+                    src: "https://lh3.google.com/u/0/d/1n63CUKeyrw2WoSXSql7dloN05rPFtzBe",
+                    portraitSrc: "https://lh3.google.com/u/0/d/1UHiLfpHgAdZWFG0AOjQO2_orHPXgPq5X",
                 }],
             ],
         },
@@ -90,8 +90,8 @@ const initialState = {
             id: "sc4",
             imgs: [ 
                 [{
-                    src: Image2,
-                    portraitSrc: Image2,
+                    src: "https://lh3.google.com/u/0/d/1C8H4slPcMukJQ9V9yjbKwk5Fq-An2P8y",
+                    portraitSrc: "https://lh3.google.com/u/0/d/1C8H4slPcMukJQ9V9yjbKwk5Fq-An2P8y",
                 }],
             ],
         },
@@ -99,8 +99,7 @@ const initialState = {
             id: "sc5",
             imgs: [ 
                 [{
-                    src: Image3,
-                    portraitSrc: Image3,
+                    src: "https://lh3.google.com/u/0/d/15YSp8S_H8Zz0rEyed8n56vbI9z019lzX",
                 }],
             ],
         },
@@ -111,8 +110,8 @@ const initialState = {
             id: "scmini1",
             imgs: [ 
                 [{
-                    src: scmini1,
-                    portraitSrc: scmini1p,
+                    src: "https://lh3.google.com/u/0/d/1UIxTUVNgMkizeyjKR3mA45LOcQdLV5Z3",
+                    portraitSrc: "https://lh3.google.com/u/0/d/1p8ZCZOvH_O6KfUz6p70VlFLPabrKassa",
                 }],
             ],
         },
@@ -120,8 +119,8 @@ const initialState = {
             id: "scmini2",
             imgs: [ 
                 [{
-                    src: scmini2,
-                    portraitSrc: scmini2p,
+                    src: "https://lh3.google.com/u/0/d/1YX5g2dGLStroaRq_O36E6T-Xg0-HAeSb",
+                    portraitSrc: "https://lh3.google.com/u/0/d/1s4TZHeIQnLvNg9Zbx3sJoWjhc5jjUc94",
                 }],
             ],
         },
@@ -129,8 +128,8 @@ const initialState = {
             id: "scmini3",
             imgs: [ 
                 [{
-                    src: scmini3,
-                    portraitSrc: scmini3p,
+                    src: "https://lh3.google.com/u/0/d/1wJBz55N0xEabB5sid2LFWv42x5XTp10m",
+                    portraitSrc: "https://lh3.google.com/u/0/d/1CW9b-gokcy4bj2rjDP9mHQsMkQxx1usS",
                 }],
             ],
         },

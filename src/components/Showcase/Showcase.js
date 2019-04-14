@@ -8,11 +8,12 @@ const showcase = (props) => {
     //     <img className={classes.ShowcaseImage} src={props.src} alt={props.title} />
     // </div>;
     // </section>
+    let portraitSrc = props.portraitSrc !== undefined ? props.portraitSrc : props.src;
     return <div 
             className={[classes.Showcase, classes[props.defaultLayout]].join(' ')}
             style={props.divStyle}>
         <Image src={props.src}  alt={props.title} annotations={props.annotations} />
-        <Image src={props.portraitSrc}  alt={props.title} annotations={props.annotations}/>
+        <Image src={portraitSrc}  alt={props.title} annotations={props.annotations}/>
     </div>;
 };
 

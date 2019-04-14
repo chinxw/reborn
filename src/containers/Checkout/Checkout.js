@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 // import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 
-import * as actions from '../../store/actions/index';
+// import * as actions from '../../store/actions/index';
 import CheckoutItem from '../../components/Checkout/CheckoutItem/CheckoutItem';
 import Button from '../../components/UI/Button/Button';
 import * as pathConstants from '../../shared/constants';

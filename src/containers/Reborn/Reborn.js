@@ -7,12 +7,12 @@ import { connect } from 'react-redux';
 // import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
 import Showcase from '../../components/Showcase/Showcase';
 // import ShopNowItem from '../../components/ShopNowItem/ShopNowItem';
-import Image1 from '../../assets/images/showcase1.png';
-import Image2 from '../../assets/images/dakota-johnson-beauty-river.jpg';
+// import Image1 from '../../assets/images/showcase1.png';
+// import Image2 from '../../assets/images/dakota-johnson-beauty-river.jpg';
 // import Image3 from '../../assets/images/COSME_Web-09.png';
-import Image3 from '../../assets/images/COSME_Web-12.png';
-import Item1Image from '../../assets/images/mac_sku_MKXM01_640x600_0.jpg';
-import Item2Image from '../../assets/images/BTPC150_5.jpg';
+// import Image3 from '../../assets/images/COSME_Web-12.png';
+// import Item1Image from '../../assets/images/mac_sku_MKXM01_640x600_0.jpg';
+// import Item2Image from '../../assets/images/BTPC150_5.jpg';
 import classes from './Reborn.css';
 import * as actions from '../../store/actions/index';
 import * as pathConstants from '../../shared/constants';
@@ -95,9 +95,9 @@ class Reborn extends Component {
     render() {
         // {salad: true, meat: false, ...}
         const selectedShowcase = this.props.showcaseList[this.props.showcaseSelectedId];
-        let showcaseWidth = "50%";
-        if (selectedShowcase.imgs.length === 3)
-            showcaseWidth = "33.33%";
+        // let showcaseWidth = "50%";
+        // if (selectedShowcase.imgs.length === 3)
+        //     showcaseWidth = "33.33%";
 
         let showcaseMini = [];
         for (let i = 0; i < Object.keys(this.props.showcaseMini).length;i++) {
@@ -171,7 +171,7 @@ class Reborn extends Component {
                         {/* className={classes.ShopNowImage}  */}
                         <Image
                             // className={classes.ShopNowImage}
-                            src={Image3}
+                            src="https://lh3.google.com/u/0/d/1mLsAbNm8GWzyJQ1zsnXt7Q650IQXEw3J"
                             alt="Shop Now"
                             divStyle={{
                                 width: "100%",

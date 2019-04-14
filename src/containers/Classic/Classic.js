@@ -9,8 +9,8 @@ import { connect } from 'react-redux';
 // import ShopNowItem from '../../components/ShopNowItem/ShopNowItem';
 // import Image1 from '../../assets/images/showcase1.png';
 // import Image2 from '../../assets/images/dakota-johnson-beauty-river.jpg';
-import Image1 from '../../assets/images/COSME_Web-05.png';
-import Image2 from '../../assets/images/COSME_Web-06.png';
+// import Image1 from '../../assets/images/COSME_Web-05.png';
+// import Image2 from '../../assets/images/COSME_Web-06.png';
 // import Item1Image from '../../assets/images/mac_sku_MKXM01_640x600_0.jpg';
 // import Item2Image from '../../assets/images/BTPC150_5.jpg';
 // import classes from './Root.css';
@@ -29,10 +29,18 @@ class Classic extends Component {
         return (
             <React.Fragment>
                 <div className={classes.Showcase}>
-                    <Showcase key="asd" src={Image1} portraitSrc={Image1} title="asd" width="100%"/>
+                    <Showcase
+                        key="asd" 
+                        src="https://lh3.google.com/u/0/d/17wuasOI_s6AbTLflKf5BepVJRTBX-6lO"
+                        title="asd" 
+                        width="100%"/>
                 </div>
                 <div className={classes.Showcase}>
-                    <Showcase key="asd2" src={Image2} portraitSrc={Image2} title="asd2" width="100%" />
+                    <Showcase
+                        key="asd" 
+                        src="https://lh3.google.com/u/0/d/1Q9hO_qZ3pe05Utc6yJnvOFHbvods18NM"
+                        title="asd" 
+                        width="100%"/>
                 </div>
             </React.Fragment>
         );
